@@ -1,0 +1,501 @@
+{
+  "artifact": "ventlogger_respiratory_group_hierarchy",
+  "source_artifact": "respiratory_label_crosswalk_hierarchy",
+  "source_version": "0.2",
+  "source_file": "/home/paulwasthere/Desktop/RespiratoryProject/label-reviewer/zebezo_respiratory_label_crosswalk_hierarchy_v3.json",
+  "usage_note": "Groups only. Source value-label lists intentionally stripped for VentLogger.",
+  "hierarchy": [
+    {
+      "id": "alarms_2",
+      "name": "Alarms",
+      "path": [
+        "Alarms"
+      ],
+      "children": []
+    },
+    {
+      "id": "blood_oxygen_saturation",
+      "name": "Blood Oxygen Saturation",
+      "path": [
+        "Blood Oxygen Saturation"
+      ],
+      "children": []
+    },
+    {
+      "id": "breath_sounds",
+      "name": "Breath Sounds",
+      "path": [
+        "Breath Sounds"
+      ],
+      "children": []
+    },
+    {
+      "id": "carbon_dioxide",
+      "name": "Carbon Dioxide",
+      "path": [
+        "Carbon Dioxide"
+      ],
+      "children": [
+        {
+          "id": "end_tidal",
+          "name": "End-Tidal",
+          "path": [
+            "Carbon Dioxide",
+            "End-Tidal"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance",
+      "path": [
+        "Compliance"
+      ],
+      "children": []
+    },
+    {
+      "id": "cough",
+      "name": "Cough",
+      "path": [
+        "Cough"
+      ],
+      "children": []
+    },
+    {
+      "id": "delivery_device",
+      "name": "Delivery Device",
+      "path": [
+        "Delivery Device"
+      ],
+      "children": []
+    },
+    {
+      "id": "equations",
+      "name": "Equations",
+      "path": [
+        "Equations"
+      ],
+      "children": []
+    },
+    {
+      "id": "equipment",
+      "name": "Equipment",
+      "path": [
+        "Equipment"
+      ],
+      "children": [
+        {
+          "id": "chest_tubes",
+          "name": "Chest Tubes",
+          "path": [
+            "Equipment",
+            "Chest Tubes"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "equipment_placement",
+      "name": "Equipment Placement",
+      "path": [
+        "Equipment Placement"
+      ],
+      "children": []
+    },
+    {
+      "id": "flow",
+      "name": "Flow",
+      "path": [
+        "Flow"
+      ],
+      "children": [
+        {
+          "id": "expiratory",
+          "name": "Expiratory",
+          "path": [
+            "Flow",
+            "Expiratory"
+          ],
+          "children": []
+        },
+        {
+          "id": "inspiratory",
+          "name": "Inspiratory",
+          "path": [
+            "Flow",
+            "Inspiratory"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "heart_rate",
+      "name": "Heart Rate",
+      "path": [
+        "Heart Rate"
+      ],
+      "children": []
+    },
+    {
+      "id": "ibw_kg",
+      "name": "IBW/KG",
+      "path": [
+        "IBW/KG"
+      ],
+      "children": []
+    },
+    {
+      "id": "intervention",
+      "name": "Intervention",
+      "path": [
+        "Intervention"
+      ],
+      "children": [
+        {
+          "id": "patient_care",
+          "name": "Patient Care",
+          "path": [
+            "Intervention",
+            "Patient Care"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "leak",
+      "name": "Leak",
+      "path": [
+        "Leak"
+      ],
+      "children": []
+    },
+    {
+      "id": "minute_ventilation",
+      "name": "Minute Ventilation",
+      "path": [
+        "Minute Ventilation"
+      ],
+      "children": [
+        {
+          "id": "exhaled_2",
+          "name": "Exhaled",
+          "path": [
+            "Minute Ventilation",
+            "Exhaled"
+          ],
+          "children": []
+        },
+        {
+          "id": "inhaled_2",
+          "name": "Inhaled",
+          "path": [
+            "Minute Ventilation",
+            "Inhaled"
+          ],
+          "children": []
+        },
+        {
+          "id": "spontaneous",
+          "name": "Spontaneous",
+          "path": [
+            "Minute Ventilation",
+            "Spontaneous"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "miscellaneous",
+      "name": "Miscellaneous",
+      "path": [
+        "Miscellaneous"
+      ],
+      "children": []
+    },
+    {
+      "id": "oxygen",
+      "name": "Oxygen",
+      "path": [
+        "Oxygen"
+      ],
+      "children": [
+        {
+          "id": "device",
+          "name": "Device",
+          "path": [
+            "Oxygen",
+            "Device"
+          ],
+          "children": []
+        },
+        {
+          "id": "liter_flow",
+          "name": "Liter Flow",
+          "path": [
+            "Oxygen",
+            "Liter Flow"
+          ],
+          "children": []
+        },
+        {
+          "id": "percentage",
+          "name": "Percentage",
+          "path": [
+            "Oxygen",
+            "Percentage"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "patient_assessment",
+      "name": "Patient Assessment",
+      "path": [
+        "Patient Assessment"
+      ],
+      "children": [
+        {
+          "id": "protocol",
+          "name": "Protocol",
+          "path": [
+            "Patient Assessment",
+            "Protocol"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "patient_demographics",
+      "name": "Patient Demographics",
+      "path": [
+        "Patient Demographics"
+      ],
+      "children": []
+    },
+    {
+      "id": "patient_position",
+      "name": "Patient Position",
+      "path": [
+        "Patient Position"
+      ],
+      "children": []
+    },
+    {
+      "id": "pulse_oximetry",
+      "name": "Pulse Oximetry",
+      "path": [
+        "Pulse Oximetry"
+      ],
+      "children": []
+    },
+    {
+      "id": "respiratory_rate",
+      "name": "Respiratory Rate",
+      "path": [
+        "Respiratory Rate"
+      ],
+      "children": [
+        {
+          "id": "mandatory",
+          "name": "Mandatory",
+          "path": [
+            "Respiratory Rate",
+            "Mandatory"
+          ],
+          "children": []
+        },
+        {
+          "id": "spontaneous_2",
+          "name": "Spontaneous",
+          "path": [
+            "Respiratory Rate",
+            "Spontaneous"
+          ],
+          "children": []
+        },
+        {
+          "id": "total_respiratory_rate",
+          "name": "Total Respiratory Rate",
+          "path": [
+            "Respiratory Rate",
+            "Total Respiratory Rate"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "secretions",
+      "name": "Secretions",
+      "path": [
+        "Secretions"
+      ],
+      "children": []
+    },
+    {
+      "id": "sedation",
+      "name": "Sedation",
+      "path": [
+        "Sedation"
+      ],
+      "children": []
+    },
+    {
+      "id": "temperature",
+      "name": "Temperature",
+      "path": [
+        "Temperature"
+      ],
+      "children": []
+    },
+    {
+      "id": "tidal_volume",
+      "name": "Tidal Volume",
+      "path": [
+        "Tidal Volume"
+      ],
+      "children": [
+        {
+          "id": "exhaled",
+          "name": "Exhaled",
+          "path": [
+            "Tidal Volume",
+            "Exhaled"
+          ],
+          "children": []
+        },
+        {
+          "id": "inhaled",
+          "name": "Inhaled",
+          "path": [
+            "Tidal Volume",
+            "Inhaled"
+          ],
+          "children": []
+        },
+        {
+          "id": "miscellaneous_2",
+          "name": "Miscellaneous",
+          "path": [
+            "Tidal Volume",
+            "Miscellaneous"
+          ],
+          "children": []
+        },
+        {
+          "id": "set",
+          "name": "Set",
+          "path": [
+            "Tidal Volume",
+            "Set"
+          ],
+          "children": []
+        },
+        {
+          "id": "weaning",
+          "name": "Weaning",
+          "path": [
+            "Tidal Volume",
+            "Weaning"
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "path": [
+        "Time"
+      ],
+      "children": []
+    },
+    {
+      "id": "trigger",
+      "name": "Trigger",
+      "path": [
+        "Trigger"
+      ],
+      "children": []
+    },
+    {
+      "id": "ventilator",
+      "name": "Ventilator",
+      "path": [
+        "Ventilator"
+      ],
+      "children": []
+    },
+    {
+      "id": "ventilator_mode",
+      "name": "Ventilator Mode",
+      "path": [
+        "Ventilator Mode"
+      ],
+      "children": []
+    },
+    {
+      "id": "ventilator_pressure",
+      "name": "Ventilator Pressure",
+      "path": [
+        "Ventilator Pressure"
+      ],
+      "children": [
+        {
+          "id": "end_expiratory_pressure",
+          "name": "End Expiratory Pressure",
+          "path": [
+            "Ventilator Pressure",
+            "End Expiratory Pressure"
+          ],
+          "children": []
+        },
+        {
+          "id": "mean_airway_pressure",
+          "name": "Mean Airway Pressure",
+          "path": [
+            "Ventilator Pressure",
+            "Mean Airway Pressure"
+          ],
+          "children": []
+        },
+        {
+          "id": "peak_inspiratory_presssure",
+          "name": "Peak Inspiratory Presssure",
+          "path": [
+            "Ventilator Pressure",
+            "Peak Inspiratory Presssure"
+          ],
+          "children": []
+        },
+        {
+          "id": "plateau_pressure",
+          "name": "Plateau Pressure",
+          "path": [
+            "Ventilator Pressure",
+            "Plateau Pressure"
+          ],
+          "children": []
+        },
+        {
+          "id": "pressure_support",
+          "name": "Pressure Support",
+          "path": [
+            "Ventilator Pressure",
+            "Pressure Support"
+          ],
+          "children": []
+        }
+      ]
+    }
+  ],
+  "node_count": 57
+}
